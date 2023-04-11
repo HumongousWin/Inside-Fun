@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.github.humongouswin.insidefun.app-mergeDebugResources-4:/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ghedamsi\\Downloads\\Compressed\\ChromeCastAndroidApp_2023_03_14\\app-done\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "661",
+                        "endLines": "24",
+                        "endColumns": "12",
+                        "endOffsets": "1018"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "344"
+                    }
+                }
+            ]
+        }
+    ]
+}

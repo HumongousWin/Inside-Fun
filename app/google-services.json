@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "975442274071",
+    "project_id": "inside-fun-channel",
+    "storage_bucket": "inside-fun-channel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975442274071:android:3e2a19ae1903271d30b952",
+        "android_client_info": {
+          "package_name": "com.github.humongouswin.insidefun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975442274071-6oaptbakpgpfrk7do7q69knres4mnte7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFAlRzSMxeKiprtpLgjtam0J6I9kbmMl0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975442274071-6oaptbakpgpfrk7do7q69knres4mnte7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

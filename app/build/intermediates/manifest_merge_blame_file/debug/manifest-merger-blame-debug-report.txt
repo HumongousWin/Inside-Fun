@@ -1,0 +1,347 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  Copyright 2016 Google LLC. All rights reserved.
+4
+5  Licensed under the Apache License, Version 2.0 (the "License");
+6  you may not use this file except in compliance with the License.
+7  You may obtain a copy of the License at
+8
+9       http://www.apache.org/licenses/LICENSE-2.0
+10
+11  Unless required by applicable law or agreed to in writing, software
+12  distributed under the License is distributed on an "AS IS" BASIS,
+13  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  See the License for the specific language governing permissions and
+15  limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.github.humongouswin.insidefun"
+19    android:versionCode="21"
+20    android:versionName="5.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="19"
+23-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="32" />
+24-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml
+25
+26    <uses-permission android:name="android.permission.INTERNET" />
+26-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:18:5-67
+26-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:18:22-64
+27
+28    <!-- This permission is required to start foreground services in Android P. -->
+29    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+29-->[com.google.android.gms:play-services-cast-framework:21.1.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\ad67c965263cf0c7d2b93a983b9a7f62\transformed\jetified-play-services-cast-framework-21.1.0\AndroidManifest.xml:10:5-77
+29-->[com.google.android.gms:play-services-cast-framework:21.1.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\ad67c965263cf0c7d2b93a983b9a7f62\transformed\jetified-play-services-cast-framework-21.1.0\AndroidManifest.xml:10:22-74
+30    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+31-->[com.google.firebase:firebase-firestore:24.4.4] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\e4b331ead9097b7d0aa504c19bb7ee61\transformed\jetified-firebase-firestore-24.4.4\AndroidManifest.xml:12:5-79
+31-->[com.google.firebase:firebase-firestore:24.4.4] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\e4b331ead9097b7d0aa504c19bb7ee61\transformed\jetified-firebase-firestore-24.4.4\AndroidManifest.xml:12:22-76
+32    <uses-permission android:name="android.permission.WAKE_LOCK" />
+32-->[com.google.android.gms:play-services-measurement-api:21.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\b69bbe8a1b2f8e3f29138139d2c5002b\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:24:5-68
+32-->[com.google.android.gms:play-services-measurement-api:21.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\b69bbe8a1b2f8e3f29138139d2c5002b\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:24:22-65
+33    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+33-->[com.google.android.gms:play-services-measurement-api:21.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\b69bbe8a1b2f8e3f29138139d2c5002b\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:25:5-79
+33-->[com.google.android.gms:play-services-measurement-api:21.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\b69bbe8a1b2f8e3f29138139d2c5002b\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:25:22-76
+34    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+34-->[com.google.android.gms:play-services-measurement:21.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\72de13bd0f010d7488e5329173ef0196\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:26:5-110
+34-->[com.google.android.gms:play-services-measurement:21.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\72de13bd0f010d7488e5329173ef0196\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:26:22-107
+35
+36    <application
+36-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:20:5-80:19
+37        android:allowBackup="true"
+37-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:21:9-35
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.8.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\98005196642c1282952db3747aa5eb61\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+39        android:banner="@drawable/banner"
+39-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:22:9-42
+40        android:debuggable="true"
+41        android:icon="@drawable/ic_launcher"
+41-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:23:9-45
+42        android:label="@string/app_name"
+42-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:24:9-41
+43        android:testOnly="true"
+44        android:theme="@style/Theme.CastVideosTheme" >
+44-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:25:9-53
+45        <activity
+45-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:27:9-38:20
+46            android:name="com.github.humongouswin.insidefun.browser.CategoriesActivity"
+46-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:28:13-88
+47            android:exported="true"
+47-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:29:13-36
+48            android:label="@string/app_name"
+48-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:30:13-45
+49            android:screenOrientation="portrait" >
+49-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:31:13-49
+50            <intent-filter>
+50-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:32:13-37:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:33:17-69
+51-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:33:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:35:17-77
+53-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:35:27-74
+54                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+54-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:36:17-86
+54-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:36:27-83
+55            </intent-filter>
+56        </activity>
+57        <activity
+57-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:39:9-48:20
+58            android:name="com.github.humongouswin.insidefun.mediaplayer.LocalPlayerActivity"
+58-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:40:13-93
+59            android:configChanges="orientation|keyboard|keyboardHidden|screenSize|screenLayout|uiMode"
+59-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:41:13-103
+60            android:exported="true"
+60-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:42:13-36
+61            android:label="@string/app_name"
+61-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:43:13-45
+62            android:launchMode="singleTask" >
+62-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:44:13-44
+63            <intent-filter>
+63-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:45:13-47:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:33:17-69
+64-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:33:25-66
+65            </intent-filter>
+66        </activity>
+67        <activity
+67-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:49:9-57:20
+68            android:name="com.github.humongouswin.insidefun.settings.CastPreference"
+68-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:50:13-85
+69            android:exported="true"
+69-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:51:13-36
+70            android:label="@string/action_settings"
+70-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:52:13-52
+71            android:theme="@style/Theme.AppCompat" >
+71-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:53:13-51
+72            <intent-filter>
+72-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:45:13-47:29
+73                <action android:name="android.intent.action.MAIN" />
+73-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:33:17-69
+73-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:33:25-66
+74            </intent-filter>
+75        </activity>
+76        <activity
+76-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:58:9-71:20
+77            android:name="com.github.humongouswin.insidefun.expandedcontrols.ExpandedControlsActivity"
+77-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:59:13-103
+78            android:exported="true"
+78-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:60:13-36
+79            android:label="@string/app_name"
+79-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:61:13-45
+80            android:launchMode="singleInstance"
+80-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:62:13-48
+81            android:screenOrientation="portrait"
+81-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:63:13-49
+82            android:theme="@style/Theme.CastVideosDark" >
+82-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:64:13-56
+83            <intent-filter>
+83-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:45:13-47:29
+84                <action android:name="android.intent.action.MAIN" />
+84-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:33:17-69
+84-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:33:25-66
+85            </intent-filter>
+86
+87            <meta-data
+87-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:68:13-70:96
+88                android:name="android.support.PARENT_ACTIVITY"
+88-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:69:17-63
+89                android:value="com.github.humongouswin.insidefun.browser.CategoriesActivity" />
+89-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:70:17-93
+90        </activity>
+91        <activity
+91-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:73:9-75:52
+92            android:name="com.github.humongouswin.insidefun.VideoBrowserActivity"
+92-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:74:13-82
+93            android:screenOrientation="portrait" />
+93-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:75:13-49
+94
+95        <meta-data
+95-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:77:9-79:97
+96            android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
+96-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:78:13-93
+97            android:value="com.google.android.exoplayer2.ext.cast.DefaultCastOptionsProvider" />
+97-->C:\Users\Ghedamsi\Downloads\Compressed\ChromeCastAndroidApp_2023_03_14\app-done\app\src\main\AndroidManifest.xml:79:13-94
+98
+99        <receiver
+99-->[com.google.android.gms:play-services-cast-framework:21.1.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\ad67c965263cf0c7d2b93a983b9a7f62\transformed\jetified-play-services-cast-framework-21.1.0\AndroidManifest.xml:13:9-15:40
+100            android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver"
+100-->[com.google.android.gms:play-services-cast-framework:21.1.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\ad67c965263cf0c7d2b93a983b9a7f62\transformed\jetified-play-services-cast-framework-21.1.0\AndroidManifest.xml:14:13-91
+101            android:exported="false" />
+101-->[com.google.android.gms:play-services-cast-framework:21.1.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\ad67c965263cf0c7d2b93a983b9a7f62\transformed\jetified-play-services-cast-framework-21.1.0\AndroidManifest.xml:15:13-37
+102
+103        <service
+103-->[com.google.android.gms:play-services-cast-framework:21.1.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\ad67c965263cf0c7d2b93a983b9a7f62\transformed\jetified-play-services-cast-framework-21.1.0\AndroidManifest.xml:17:9-20:61
+104            android:name="com.google.android.gms.cast.framework.media.MediaNotificationService"
+104-->[com.google.android.gms:play-services-cast-framework:21.1.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\ad67c965263cf0c7d2b93a983b9a7f62\transformed\jetified-play-services-cast-framework-21.1.0\AndroidManifest.xml:18:13-96
+105            android:exported="false"
+105-->[com.google.android.gms:play-services-cast-framework:21.1.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\ad67c965263cf0c7d2b93a983b9a7f62\transformed\jetified-play-services-cast-framework-21.1.0\AndroidManifest.xml:19:13-37
+106            android:foregroundServiceType="mediaPlayback" />
+106-->[com.google.android.gms:play-services-cast-framework:21.1.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\ad67c965263cf0c7d2b93a983b9a7f62\transformed\jetified-play-services-cast-framework-21.1.0\AndroidManifest.xml:20:13-58
+107        <service
+107-->[com.google.android.gms:play-services-cast-framework:21.1.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\ad67c965263cf0c7d2b93a983b9a7f62\transformed\jetified-play-services-cast-framework-21.1.0\AndroidManifest.xml:21:9-23:40
+108            android:name="com.google.android.gms.cast.framework.ReconnectionService"
+108-->[com.google.android.gms:play-services-cast-framework:21.1.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\ad67c965263cf0c7d2b93a983b9a7f62\transformed\jetified-play-services-cast-framework-21.1.0\AndroidManifest.xml:22:13-85
+109            android:exported="false" />
+109-->[com.google.android.gms:play-services-cast-framework:21.1.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\ad67c965263cf0c7d2b93a983b9a7f62\transformed\jetified-play-services-cast-framework-21.1.0\AndroidManifest.xml:23:13-37
+110        <service
+110-->[com.google.firebase:firebase-firestore-ktx:24.4.4] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\781a959dab734410893dcef8b19436b7\transformed\jetified-firebase-firestore-ktx-24.4.4\AndroidManifest.xml:11:9-17:19
+111            android:name="com.google.firebase.components.ComponentDiscoveryService"
+111-->[com.google.firebase:firebase-firestore-ktx:24.4.4] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\781a959dab734410893dcef8b19436b7\transformed\jetified-firebase-firestore-ktx-24.4.4\AndroidManifest.xml:12:13-84
+112            android:directBootAware="true"
+112-->[com.google.firebase:firebase-common:20.3.1] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\03e60863357a0d3ae86c2e38f04f5088\transformed\jetified-firebase-common-20.3.1\AndroidManifest.xml:34:13-43
+113            android:exported="false" >
+113-->[com.google.firebase:firebase-firestore-ktx:24.4.4] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\781a959dab734410893dcef8b19436b7\transformed\jetified-firebase-firestore-ktx-24.4.4\AndroidManifest.xml:13:13-37
+114            <meta-data
+114-->[com.google.firebase:firebase-firestore-ktx:24.4.4] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\781a959dab734410893dcef8b19436b7\transformed\jetified-firebase-firestore-ktx-24.4.4\AndroidManifest.xml:14:13-16:85
+115                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
+115-->[com.google.firebase:firebase-firestore-ktx:24.4.4] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\781a959dab734410893dcef8b19436b7\transformed\jetified-firebase-firestore-ktx-24.4.4\AndroidManifest.xml:15:17-126
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-firestore-ktx:24.4.4] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\781a959dab734410893dcef8b19436b7\transformed\jetified-firebase-firestore-ktx-24.4.4\AndroidManifest.xml:16:17-82
+117            <meta-data
+117-->[com.google.firebase:firebase-firestore:24.4.4] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\e4b331ead9097b7d0aa504c19bb7ee61\transformed\jetified-firebase-firestore-24.4.4\AndroidManifest.xml:19:13-21:85
+118                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+118-->[com.google.firebase:firebase-firestore:24.4.4] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\e4b331ead9097b7d0aa504c19bb7ee61\transformed\jetified-firebase-firestore-24.4.4\AndroidManifest.xml:20:17-111
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-firestore:24.4.4] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\e4b331ead9097b7d0aa504c19bb7ee61\transformed\jetified-firebase-firestore-24.4.4\AndroidManifest.xml:21:17-82
+120            <meta-data
+120-->[com.google.firebase:firebase-analytics-ktx:21.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\a50dc6794ee11395e70c6c994ae2bc71\transformed\jetified-firebase-analytics-ktx-21.2.0\AndroidManifest.xml:11:13-13:85
+121                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+121-->[com.google.firebase:firebase-analytics-ktx:21.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\a50dc6794ee11395e70c6c994ae2bc71\transformed\jetified-firebase-analytics-ktx-21.2.0\AndroidManifest.xml:12:17-126
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.firebase:firebase-analytics-ktx:21.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\a50dc6794ee11395e70c6c994ae2bc71\transformed\jetified-firebase-analytics-ktx-21.2.0\AndroidManifest.xml:13:17-82
+123            <meta-data
+123-->[com.google.firebase:firebase-common-ktx:20.3.1] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\ab2725343c4224bddecf4cd243938dc3\transformed\jetified-firebase-common-ktx-20.3.1\AndroidManifest.xml:14:13-16:85
+124                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+124-->[com.google.firebase:firebase-common-ktx:20.3.1] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\ab2725343c4224bddecf4cd243938dc3\transformed\jetified-firebase-common-ktx-20.3.1\AndroidManifest.xml:15:17-113
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[com.google.firebase:firebase-common-ktx:20.3.1] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\ab2725343c4224bddecf4cd243938dc3\transformed\jetified-firebase-common-ktx-20.3.1\AndroidManifest.xml:16:17-82
+126            <meta-data
+126-->[com.google.android.gms:play-services-measurement-api:21.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\b69bbe8a1b2f8e3f29138139d2c5002b\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
+127                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+127-->[com.google.android.gms:play-services-measurement-api:21.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\b69bbe8a1b2f8e3f29138139d2c5002b\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
+128                android:value="com.google.firebase.components.ComponentRegistrar" />
+128-->[com.google.android.gms:play-services-measurement-api:21.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\b69bbe8a1b2f8e3f29138139d2c5002b\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+129            <meta-data
+129-->[com.google.firebase:firebase-installations:17.1.3] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\4d5f1a5f0b137859f831007af60330b5\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
+130                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+130-->[com.google.firebase:firebase-installations:17.1.3] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\4d5f1a5f0b137859f831007af60330b5\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
+131                android:value="com.google.firebase.components.ComponentRegistrar" />
+131-->[com.google.firebase:firebase-installations:17.1.3] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\4d5f1a5f0b137859f831007af60330b5\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
+132        </service>
+133
+134        <activity
+134-->[com.google.android.gms:play-services-base:18.0.1] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\8b923eaf501daf535f826385615fb223\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+135            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+135-->[com.google.android.gms:play-services-base:18.0.1] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\8b923eaf501daf535f826385615fb223\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+136            android:exported="false"
+136-->[com.google.android.gms:play-services-base:18.0.1] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\8b923eaf501daf535f826385615fb223\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+137            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+137-->[com.google.android.gms:play-services-base:18.0.1] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\8b923eaf501daf535f826385615fb223\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+138
+139        <provider
+139-->[com.google.firebase:firebase-common:20.3.1] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\03e60863357a0d3ae86c2e38f04f5088\transformed\jetified-firebase-common-20.3.1\AndroidManifest.xml:25:9-30:39
+140            android:name="com.google.firebase.provider.FirebaseInitProvider"
+140-->[com.google.firebase:firebase-common:20.3.1] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\03e60863357a0d3ae86c2e38f04f5088\transformed\jetified-firebase-common-20.3.1\AndroidManifest.xml:26:13-77
+141            android:authorities="com.github.humongouswin.insidefun.firebaseinitprovider"
+141-->[com.google.firebase:firebase-common:20.3.1] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\03e60863357a0d3ae86c2e38f04f5088\transformed\jetified-firebase-common-20.3.1\AndroidManifest.xml:27:13-72
+142            android:directBootAware="true"
+142-->[com.google.firebase:firebase-common:20.3.1] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\03e60863357a0d3ae86c2e38f04f5088\transformed\jetified-firebase-common-20.3.1\AndroidManifest.xml:28:13-43
+143            android:exported="false"
+143-->[com.google.firebase:firebase-common:20.3.1] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\03e60863357a0d3ae86c2e38f04f5088\transformed\jetified-firebase-common-20.3.1\AndroidManifest.xml:29:13-37
+144            android:initOrder="100" />
+144-->[com.google.firebase:firebase-common:20.3.1] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\03e60863357a0d3ae86c2e38f04f5088\transformed\jetified-firebase-common-20.3.1\AndroidManifest.xml:30:13-36
+145
+146        <receiver
+146-->[com.google.android.gms:play-services-measurement:21.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\72de13bd0f010d7488e5329173ef0196\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
+147            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+147-->[com.google.android.gms:play-services-measurement:21.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\72de13bd0f010d7488e5329173ef0196\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
+148            android:enabled="true"
+148-->[com.google.android.gms:play-services-measurement:21.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\72de13bd0f010d7488e5329173ef0196\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
+149            android:exported="false" >
+149-->[com.google.android.gms:play-services-measurement:21.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\72de13bd0f010d7488e5329173ef0196\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
+150        </receiver>
+151
+152        <service
+152-->[com.google.android.gms:play-services-measurement:21.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\72de13bd0f010d7488e5329173ef0196\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
+153            android:name="com.google.android.gms.measurement.AppMeasurementService"
+153-->[com.google.android.gms:play-services-measurement:21.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\72de13bd0f010d7488e5329173ef0196\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
+154            android:enabled="true"
+154-->[com.google.android.gms:play-services-measurement:21.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\72de13bd0f010d7488e5329173ef0196\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
+155            android:exported="false" />
+155-->[com.google.android.gms:play-services-measurement:21.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\72de13bd0f010d7488e5329173ef0196\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
+156        <service
+156-->[com.google.android.gms:play-services-measurement:21.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\72de13bd0f010d7488e5329173ef0196\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
+157            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+157-->[com.google.android.gms:play-services-measurement:21.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\72de13bd0f010d7488e5329173ef0196\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
+158            android:enabled="true"
+158-->[com.google.android.gms:play-services-measurement:21.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\72de13bd0f010d7488e5329173ef0196\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
+159            android:exported="false"
+159-->[com.google.android.gms:play-services-measurement:21.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\72de13bd0f010d7488e5329173ef0196\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
+160            android:permission="android.permission.BIND_JOB_SERVICE" />
+160-->[com.google.android.gms:play-services-measurement:21.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\72de13bd0f010d7488e5329173ef0196\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
+161
+162        <meta-data
+162-->[com.google.android.gms:play-services-basement:18.1.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\57709f3b9b06ea391dee42e328fcef65\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+163            android:name="com.google.android.gms.version"
+163-->[com.google.android.gms:play-services-basement:18.1.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\57709f3b9b06ea391dee42e328fcef65\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+164            android:value="@integer/google_play_services_version" />
+164-->[com.google.android.gms:play-services-basement:18.1.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\57709f3b9b06ea391dee42e328fcef65\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+165
+166        <service
+166-->[com.google.android.datatransport:transport-backend-cct:2.3.3] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\e4fa7f616773f4eb370558501e6d09e5\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+167            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+167-->[com.google.android.datatransport:transport-backend-cct:2.3.3] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\e4fa7f616773f4eb370558501e6d09e5\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+168            android:exported="false" >
+168-->[com.google.android.datatransport:transport-backend-cct:2.3.3] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\e4fa7f616773f4eb370558501e6d09e5\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+169            <meta-data
+169-->[com.google.android.datatransport:transport-backend-cct:2.3.3] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\e4fa7f616773f4eb370558501e6d09e5\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+170                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+170-->[com.google.android.datatransport:transport-backend-cct:2.3.3] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\e4fa7f616773f4eb370558501e6d09e5\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+171                android:value="cct" />
+171-->[com.google.android.datatransport:transport-backend-cct:2.3.3] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\e4fa7f616773f4eb370558501e6d09e5\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+172        </service>
+173
+174        <provider
+174-->[androidx.emoji2:emoji2:1.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\26cca6b7199e42e3e390dde10c4fbb0a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+175            android:name="androidx.startup.InitializationProvider"
+175-->[androidx.emoji2:emoji2:1.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\26cca6b7199e42e3e390dde10c4fbb0a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+176            android:authorities="com.github.humongouswin.insidefun.androidx-startup"
+176-->[androidx.emoji2:emoji2:1.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\26cca6b7199e42e3e390dde10c4fbb0a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+177            android:exported="false" >
+177-->[androidx.emoji2:emoji2:1.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\26cca6b7199e42e3e390dde10c4fbb0a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+178            <meta-data
+178-->[androidx.emoji2:emoji2:1.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\26cca6b7199e42e3e390dde10c4fbb0a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+179                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+179-->[androidx.emoji2:emoji2:1.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\26cca6b7199e42e3e390dde10c4fbb0a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+180                android:value="androidx.startup" />
+180-->[androidx.emoji2:emoji2:1.2.0] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\26cca6b7199e42e3e390dde10c4fbb0a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+181            <meta-data
+181-->[androidx.lifecycle:lifecycle-process:2.4.1] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\47ca794b4b893a80b4e1e4e4ba906918\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+182                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+182-->[androidx.lifecycle:lifecycle-process:2.4.1] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\47ca794b4b893a80b4e1e4e4ba906918\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+183                android:value="androidx.startup" />
+183-->[androidx.lifecycle:lifecycle-process:2.4.1] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\47ca794b4b893a80b4e1e4e4ba906918\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+184        </provider>
+185
+186        <service
+186-->[com.google.android.datatransport:transport-runtime:2.2.5] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\fa2078bb551b405b82ff5e25a581a196\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:26:9-30:19
+187            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+187-->[com.google.android.datatransport:transport-runtime:2.2.5] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\fa2078bb551b405b82ff5e25a581a196\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:27:13-117
+188            android:exported="false"
+188-->[com.google.android.datatransport:transport-runtime:2.2.5] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\fa2078bb551b405b82ff5e25a581a196\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:28:13-37
+189            android:permission="android.permission.BIND_JOB_SERVICE" >
+189-->[com.google.android.datatransport:transport-runtime:2.2.5] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\fa2078bb551b405b82ff5e25a581a196\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:29:13-69
+190        </service>
+191
+192        <receiver
+192-->[com.google.android.datatransport:transport-runtime:2.2.5] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\fa2078bb551b405b82ff5e25a581a196\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:32:9-34:40
+193            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+193-->[com.google.android.datatransport:transport-runtime:2.2.5] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\fa2078bb551b405b82ff5e25a581a196\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:33:13-132
+194            android:exported="false" />
+194-->[com.google.android.datatransport:transport-runtime:2.2.5] F:\android-fundamentals-starter-apps-v2-master\android-fundamentals-starter-apps-v2-master\SimpleCalc\.gradle\caches\transforms-3\fa2078bb551b405b82ff5e25a581a196\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:34:13-37
+195    </application>
+196
+197</manifest>

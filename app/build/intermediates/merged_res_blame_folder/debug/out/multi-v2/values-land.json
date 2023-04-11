@@ -1,0 +1,53 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.github.humongouswin.insidefun.app-mergeDebugResources-4:/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "F:\\android-fundamentals-starter-apps-v2-master\\android-fundamentals-starter-apps-v2-master\\SimpleCalc\\.gradle\\caches\\transforms-3\\60ff0630cd210c2ed4a87c34be741d99\\transformed\\mediarouter-1.3.1\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,130,208",
+                        "endColumns": "74,77,74",
+                        "endOffsets": "125,203,278"
+                    },
+                    "to": {
+                        "startLines": "11,12,13",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "774,849,927",
+                        "endColumns": "74,77,74",
+                        "endOffsets": "844,922,997"
+                    }
+                },
+                {
+                    "source": "F:\\android-fundamentals-starter-apps-v2-master\\android-fundamentals-starter-apps-v2-master\\SimpleCalc\\.gradle\\caches\\transforms-3\\5ca86591b4947cf77534a7d5b7b381fe\\transformed\\appcompat-1.5.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                },
+                {
+                    "source": "F:\\android-fundamentals-starter-apps-v2-master\\android-fundamentals-starter-apps-v2-master\\SimpleCalc\\.gradle\\caches\\transforms-3\\ad67c965263cf0c7d2b93a983b9a7f62\\transformed\\jetified-play-services-cast-framework-21.1.0\\res\\values-land\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9",
+                        "startColumns": "0,0,0,0,0,0",
+                        "startOffsets": "183,264,344,414,483,578",
+                        "endColumns": "80,79,69,68,94,90",
+                        "endOffsets": "263,343,413,482,577,668"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "264,349,433,507,580,679",
+                        "endColumns": "84,83,73,72,98,94",
+                        "endOffsets": "344,428,502,575,674,769"
+                    }
+                }
+            ]
+        }
+    ]
+}
