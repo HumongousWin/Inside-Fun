@@ -26,7 +26,7 @@
     <string name="casting_to_device">Casting to %1$s</string>
     <string name="ok">OK</string>
     <string name="no_device">(No Device Selected)</string>
-    <string name="error">Error</string>
+    <string name="error">error</string>
     <string name="pause">Pause</string>
     <string name="play">Play</string>
     <string name="stop">Stop</string>
